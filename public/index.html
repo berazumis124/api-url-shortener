@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL shortener Microservice</title>
+    <meta name="description" content="TimeStamp API">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+          <p>URL shortener Microservice</p>
+      </h1>
+    </header>
+    <main>
+      <h2>Usage example:</h2>
+      <p class="code">http://localhost:4998/add/https://google.com</p>
+      <p class="code">https://timestamp-api-mr.herokuapp.com/1493326800</p>
+        <h2>Output example:</h2>
+        <p class="code">{"full_url":"https://google.com","short_url":"http://localhost:4998/31"}</p>
+        
+        <h2>Using short url:</h2>
+        <p>Point browser to http://localhost:4998/31 and it will be redirected to original url.</p>
+    </main>
+  </body>
+</html>
